@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usama Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3cc522d118.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="img/logo_name-removebg-preview.png" class="logo" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#porfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="hearder-text">
+                <p>Flutter Developer</p>
+                <h1>Hi, I'm <span>Usama</span> <br>Ali From Pakistan</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------About------------ -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur quaerat saepe minus
+                        deleniti laborum quos! Eligendi dolore necessitatibus magnam neque, animi expedita.
+                        Reprehenderit provident minus temporibus natus repellendus, accusantium delectus!</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Flutter</span><br> Android and IOS Developer</li>
+                            <li><span>Web Development</span><br> Web App Developer</li>
+                            <li><span>React Native</span><br>Building Android/IOS Application</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022 - 2023</span><br>Flutter App Developer at Deep AI Smart Coders</li>
+                            <li><span>july 2024 - Current</span><br>Web Development Internship at Software Hub </li>
+                            <li><span>jun 2024 - Current</span><br>React Native App Development Internship At Software
+                                Hub</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2018 - 2022</span><br> Bs degree in Computer Science</li>
+                            <li><span>2017 - 2018</span><br> Diploma in information Technology</li>
+                            <li><span>2023</span><br>One Month Flutter Training At Hazara University</li>
+                            <li><span>2023</span><br>One week AI Training At Hazara University</li>
+
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------Services--------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                    <h2>Flutter App</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi quaerat, error optio recusandae
+                        repellendus beatae. Libero, et, optio ducimus minima sunt impedit fugit magnam aut voluptatibus
+                        quia voluptas labore necessitatibus?</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi quaerat, error optio recusandae
+                        repellendus beatae. Libero, et, optio ducimus minima sunt impedit fugit magnam aut voluptatibus
+                        quia voluptas labore necessitatibus?</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>React Native App</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi quaerat, error optio recusandae
+                        repellendus beatae. Libero, et, optio ducimus minima sunt impedit fugit magnam aut voluptatibus
+                        quia voluptas labore necessitatibus?</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ----------------Portfolio--------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="img/work_11.jpg" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The App connect you to the talented people around the world. Download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/work_22.png" alt="">
+                    <div class="layer">
+                        <h3>Ecommerce App</h3>
+                        <p>The App connect you to the talented people around the world. Download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/work_33.png" alt="">
+                    <div class="layer">
+                        <h3>Blogs App</h3>
+                        <p>The App connect you to the talented people around the world. Download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- --------------------contact------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> usamaali.edu.pk@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +92311971677</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/share/Yf1BZxs5zsnQd5rC/?mibextid=qi2Omg"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/usama-ali-725862250"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://x.com/UsamaAli6266"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/usamaalikhan877"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="img/Usama Ali.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right">
+            <p>Copyright © Usama Ali. Made with <i class="fa-solid fa-heart"></i> DAISC </p>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- ------------JavaScript--------- -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+
+    </script>
+
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+
+
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw0WnRUElKwgExnCV3BwP8BtG86z3EfgqXnLw2qwEJkwaVQyDYXEUmxe0_ETgpem9fO/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+
+</html>
